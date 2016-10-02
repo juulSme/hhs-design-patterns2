@@ -19,8 +19,8 @@ public class Republican implements Politician {
     @Override
     public void castCongressionalVote(String law) {
         if(law.contains("Jesus") ||
-                law.contains("job creators") ||
-                law.contains("gun rights")){
+                law.contains("Job Creators") ||
+                law.contains("Gun Rights")){
             System.out.println(identifier + ", votes in favor of \"" + law + "\"");
         } else System.out.println(identifier + ", votes against \"" + law + "\"");
     }

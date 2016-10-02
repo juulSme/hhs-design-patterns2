@@ -10,10 +10,10 @@ public class CharlatanDecorator extends PoliticianDecorator {
 
     @Override
     public void castCongressionalVote(String law) {
-        if (basePolitician.getParty() == PoliticalPartyType.DEMOCRATIC && law.contains("free college tuition")){
-            System.out.println(super.getName() + ", Democrat from " + super.getDistrict() + " votes in favor of " + law);
-        } else if (basePolitician.getParty() == PoliticalPartyType.REPUBLICAN && law.contains("border wall")) {
-            System.out.println(super.getName() + ", Republican from " + super.getDistrict() + " votes in favor of " + law);
+        if (basePolitician.getParty() == PoliticalPartyType.DEMOCRATIC && law.contains("Free College Tuition")){
+            System.out.println(super.getName() + ", Democrat from " + super.getDistrict() + " votes in favor of \"" + law +"\"");
+        } else if (basePolitician.getParty() == PoliticalPartyType.REPUBLICAN && law.contains("Border Wall")) {
+            System.out.println(super.getName() + ", Republican from " + super.getDistrict() + " votes in favor of \"" + law +"\"");
         } else {
             super.castCongressionalVote(law);
         }

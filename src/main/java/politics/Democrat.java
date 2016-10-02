@@ -18,9 +18,9 @@ public class Democrat implements Politician {
 
     @Override
     public void castCongressionalVote(String law) {
-        if(law.contains("tax the rich") ||
-                law.contains("anti-gun") ||
-                law.contains("pro-choice")){
+        if(law.contains("Tax The Rich") ||
+                law.contains("Anti-Gun") ||
+                law.contains("Pro-Choice")){
             System.out.println(identifier + ", votes in favor of \"" + law + "\"");
         } else System.out.println(identifier + ", votes against \"" + law + "\"");
     }

@@ -24,8 +24,10 @@ public class Main {
 
         System.out.println(Hillary.giveSpeech());
         System.out.println(TheDonald.giveSpeech());
-        Hillary.castCongressionalVote("tax the rich act");
-        TheDonald.castCongressionalVote("Jesus Act");
+        Hillary.castCongressionalVote("Pro-Choice Tax The Rich Act");
+        TheDonald.castCongressionalVote("Pro-Choice Tax The Rich Act");
+        Hillary.castCongressionalVote("Border Wall Act");
+        TheDonald.castCongressionalVote("Border Wall Act");
         System.out.println("Hillary's funds stand at: $" + Hillary.raiseFunds());
         System.out.println("The Donald's funds stand at: $" + TheDonald.raiseFunds());
         System.out.println();
