@@ -13,7 +13,9 @@ public class PoliticalParty {
     public Politician createPolitician(String name, String district, PoliticianProperty... properties) {
         /**
          * TODO: implement method createPolitician to return a Politician.
-         * The PoliticianProperties should be processed.
+         * You may NOT create a new class that implements Politician. Variable "properties"
+         * is of type varargs and can be used as an array. The returned Politician must reflect
+         * the properties provided to the method.
          */
         return null;
     }
