@@ -7,6 +7,12 @@ import politics.*;
  */
 public class Main {
     public static void main(String[] args){
+        // TODO 1: create a UML diagram of the politics package
+        // TODO 2: the PoliticianProperty "CORRUPT" does not have a corresponding trait yet.
+        //         Implement a trait to embezzle $10.000 from the party and blame it on hackers.
+        // TODO 3: implement method politics.PoliticalParty.createPolitician()
+        // TODO 4: which design patterns are used in this program?
+
         PoliticalParty GOP = new PoliticalParty(PoliticalPartyType.REPUBLICAN);
         PoliticalParty Democrats = new PoliticalParty(PoliticalPartyType.DEMOCRATIC);
 
@@ -24,12 +30,13 @@ public class Main {
 
         System.out.println(Hillary.giveSpeech());
         System.out.println(TheDonald.giveSpeech());
+
         Hillary.castCongressionalVote("Pro-Choice Tax The Rich Act");
         TheDonald.castCongressionalVote("Pro-Choice Tax The Rich Act");
         Hillary.castCongressionalVote("Border Wall Act");
         TheDonald.castCongressionalVote("Border Wall Act");
+
         System.out.println("Hillary's funds stand at: $" + Hillary.raiseFunds());
         System.out.println("The Donald's funds stand at: $" + TheDonald.raiseFunds());
-        System.out.println();
     }
 }

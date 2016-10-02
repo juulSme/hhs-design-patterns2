@@ -3,10 +3,10 @@ package politics;
 /**
  * Created by Julien Smeets (jsmeets@quintor.nl) on 2-10-16.
  */
-public abstract class PoliticianDecorator implements Politician {
+public abstract class Trait implements Politician {
     protected Politician basePolitician;
 
-    public PoliticianDecorator(Politician politician){
+    public Trait(Politician politician){
         this.basePolitician = politician;
     }
 

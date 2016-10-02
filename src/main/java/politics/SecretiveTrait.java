@@ -3,8 +3,8 @@ package politics;
 /**
  * Created by Julien Smeets (jsmeets@quintor.nl) on 2-10-16.
  */
-public class SecretiveDecorator extends PoliticianDecorator {
-    public SecretiveDecorator(Politician politician) {
+public class SecretiveTrait extends Trait {
+    public SecretiveTrait(Politician politician) {
         super(politician);
     }
 

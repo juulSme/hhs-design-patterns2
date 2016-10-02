@@ -3,8 +3,8 @@ package politics;
 /**
  * Created by Julien Smeets (jsmeets@quintor.nl) on 2-10-16.
  */
-public class CharlatanDecorator extends PoliticianDecorator {
-    public CharlatanDecorator(Politician politician) {
+public class CharlatanTrait extends Trait {
+    public CharlatanTrait(Politician politician) {
         super(politician);
     }
 

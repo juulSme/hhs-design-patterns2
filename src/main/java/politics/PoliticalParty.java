@@ -11,25 +11,10 @@ public class PoliticalParty {
     }
 
     public Politician createPolitician(String name, String district, PoliticianProperty... properties) {
-        Politician basePolitician = null;
-        if (party == PoliticalPartyType.DEMOCRATIC){
-            basePolitician = new Democrat(name, district);
-        } else {
-            basePolitician = new Republican(name, district);
-        }
-        for (PoliticianProperty p : properties){
-            switch (p){
-                case CHARLATAN:
-                    basePolitician = new CharlatanDecorator(basePolitician);
-                    break;
-                case CORRUPT:
-                    basePolitician = new CorruptDecorator(basePolitician);
-                    break;
-                case SECRETIVE:
-                    basePolitician = new SecretiveDecorator(basePolitician);
-                    break;
-            }
-        }
-        return basePolitician;
+        /**
+         * TODO: implement method createPolitician to return a Politician.
+         * The PoliticianProperties should be processed.
+         */
+        return null;
     }
 }
