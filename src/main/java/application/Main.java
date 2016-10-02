@@ -16,27 +16,27 @@ public class Main {
         PoliticalParty GOP = new PoliticalParty(PoliticalPartyType.REPUBLICAN);
         PoliticalParty Democrats = new PoliticalParty(PoliticalPartyType.DEMOCRATIC);
 
-        Politician Hillary = Democrats.createPolitician(
+        Politician hillary = Democrats.createPolitician(
                 "Hillary Clinton",
                 "New York",
                 PoliticianProperty.CHARLATAN,
                 PoliticianProperty.SECRETIVE);
 
-        Politician TheDonald = GOP.createPolitician(
+        Politician donald = GOP.createPolitician(
                 "Donald Trump",
                 "New York",
                 PoliticianProperty.CHARLATAN,
                 PoliticianProperty.CORRUPT);
 
-        System.out.println(Hillary.giveSpeech());
-        System.out.println(TheDonald.giveSpeech());
+        System.out.println(hillary.giveSpeech());
+        System.out.println(donald.giveSpeech());
 
-        Hillary.castCongressionalVote("Pro-Choice Tax The Rich Act");
-        TheDonald.castCongressionalVote("Pro-Choice Tax The Rich Act");
-        Hillary.castCongressionalVote("Border Wall Act");
-        TheDonald.castCongressionalVote("Border Wall Act");
+        hillary.castCongressionalVote("Pro-Choice Tax The Rich Act");
+        donald.castCongressionalVote("Pro-Choice Tax The Rich Act");
+        hillary.castCongressionalVote("Border Wall Act");
+        donald.castCongressionalVote("Border Wall Act");
 
-        System.out.println("Hillary's funds stand at: $" + Hillary.raiseFunds());
-        System.out.println("The Donald's funds stand at: $" + TheDonald.raiseFunds());
+        System.out.println("Hillary's funds stand at: $" + hillary.raiseFunds());
+        System.out.println("The Donald's funds stand at: $" + donald.raiseFunds());
     }
 }
