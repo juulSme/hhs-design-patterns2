@@ -4,17 +4,17 @@ import politics.*;
 
 /**
  * Created by Julien Smeets (jsmeets@quintor.nl) on 2-10-16.
+ *
+ * TODO 1: create a UML diagram of the politics package
+ * TODO 2: the PoliticianProperty "CORRUPT" does not have a corresponding trait yet.
+ *         Implement a trait to embezzle $10.000 from the party and blame it on hackers.
+ *         The resulting class must extend Trait.
+ * TODO 3: implement method politics.PoliticalParty.createPolitician()
+ * TODO 4: Which design patterns are used in this program?
+ *
  */
 public class Main {
     public static void main(String[] args){
-        // TODO 1: create a UML diagram of the politics package
-        // TODO 2: the PoliticianProperty "CORRUPT" does not have a corresponding trait yet.
-        //         Implement a trait to embezzle $10.000 from the party and blame it on hackers.
-        //         The resulting class must extend Trait.
-        // TODO 3: implement method politics.PoliticalParty.createPolitician()
-        // TODO 4: Which design patterns are used in this program?
-        // TODO 5: What is the problem with the current implementation of the pattern represented by the Trait class?
-
         PoliticalParty GOP = new PoliticalParty(PoliticalPartyType.REPUBLICAN);
         PoliticalParty Democrats = new PoliticalParty(PoliticalPartyType.DEMOCRATIC);
 
