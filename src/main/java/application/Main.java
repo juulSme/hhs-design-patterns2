@@ -5,7 +5,7 @@ import politics.*;
 /**
  * Created by Julien Smeets (jsmeets@quintor.nl) on 2-10-16.
  *
- * TODO 1: create a UML diagram of the politics package
+ * TODO 1: create a UML class diagram of the politics package
  * TODO 2: the PoliticianProperty "CORRUPT" does not have a corresponding trait yet.
  *         Implement a trait to embezzle $10.000 from the party and blame it on hackers.
  *         The resulting class must extend Trait.
